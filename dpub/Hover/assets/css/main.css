@@ -1,0 +1,28 @@
+body {
+  font-family: arial;
+  font-size: 20px;
+}
+
+.number {
+  padding: 2px;
+  background-color: red;
+  color:#fff;
+}
+
+.number:hover {
+  background-color: blue;
+  color:#fff;
+}
+
+.footnote{
+  display:none;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+}
+
+.footnote.showme{
+  display:block;
+  color:red;
+  display:block;
+}
