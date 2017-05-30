@@ -432,6 +432,12 @@ h2{
   transition: all 2s;
 }
 
+.nav a {
+  color:red;
+  padding: 20px;
+  display: block;
+}
+
 
 .center {
   /*   display flex to center the child div */
@@ -444,16 +450,4 @@ h2{
   left:0;
   bottom:0;
   right:0;
-}
-
-.square {
-    /* try changing the widths */
-  width:60vw;
-  height:60vh;
-  background-color: rgba(255,255,255,0.5);
-/*   display flex to center the child div */
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  word-spacing: 30px;
 }
