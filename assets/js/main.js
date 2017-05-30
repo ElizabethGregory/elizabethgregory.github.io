@@ -62,9 +62,9 @@ $(function () {
    });
 
    $('.page3a').hover(function() {
-      $('.hi5').toggleClass('show_img');
+      $('.hi2').toggleClass('show_img');
    }, function() {
-      $('.hi5').toggleClass('show_img');
+      $('.hi2').toggleClass('show_img');
    });
 
 /* spec main footnotes */
@@ -85,10 +85,10 @@ $(function () {
    });
 
    $('.page3a').hover(function() {
-      $('.f5').toggleClass('show_foot');
+      $('.f2').toggleClass('show_foot');
       $('.f0').toggleClass('hide_foot');
    }, function() {
-      $('.f5').toggleClass('show_foot');
+      $('.f2').toggleClass('show_foot');
       $('.f0').toggleClass('hide_foot');
     });
 
