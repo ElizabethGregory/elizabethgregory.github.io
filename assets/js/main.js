@@ -12,6 +12,14 @@ $(".main_square:contains('form')").html(function(_, html) {
    return html.replace(/(form)/g, '<span class="red">$1</span>');
 });
 
+$(".main_square:contains('frame')").html(function(_, html) {
+   return html.replace(/(frame)/g, '<span class="blue">$1</span>');
+});
+
+$(".main_square:contains('images')").html(function(_, html) {
+   return html.replace(/(images)/g, '<span class="blue">$1</span>');
+});
+
 $(".main_square:contains('form')").html(function(_, html) {
    return html.replace(/(design)/g, '<span class="red">$1</span>');
 });

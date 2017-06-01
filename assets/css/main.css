@@ -47,11 +47,12 @@ box-shadow: 0px 0px 10000px lightgrey;
 
 .square {
     /* try changing the widths viewport width and viewportheight*/
-  background-color: rgba(255,255,255,0.80);
+  background-color: rgba(255,255,255,0.85);
 /*   display flex to center the child div */
   display:flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 0px 0px 40px rgb(173,216,230);
 }
 
 .square.small {
@@ -164,6 +165,9 @@ letter-spacing: 0.5em;
    top: 35px;
    right: 40px;
    z-index: 9;
+   color: black;
+   text-decoration: none;
+   font-size: 20px;
 }
 
 .info_text {
@@ -187,6 +191,8 @@ letter-spacing: 0.5em;
 
 .suggest {
    border-bottom: 1px dotted black;
+   text-decoration: none;
+   color: pink;
 }
 
 .suggest:hover{
@@ -298,6 +304,8 @@ letter-spacing: 0.5em;
    transform-origin: right;
    font-family: Arial, helvetica, sans-serif;
    border-bottom: 1px dotted black;
+   text-decoration: none;
+   color:pink;
 }
 
 .author:hover {
@@ -307,6 +315,9 @@ letter-spacing: 0.5em;
 #menu_text a {
    font-weight: bold;
    font-family: arial, helvetica, sans-serif;
+   text-decoration: none;
+   font-size: 35px;
+   color: black;
 }
 
 #top_menu {
@@ -434,8 +445,9 @@ h2{
 
 .nav a {
   color:red;
-  padding: 20px;
-  display: block;
+  padding: 30px;
+  text-decoration: none;
+  color: black;
 }
 
 
